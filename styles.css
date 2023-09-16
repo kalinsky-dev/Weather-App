@@ -163,9 +163,13 @@ h2 {
   font-weight: 500;
 }
 
-
+/* Weather is hidden initially */
+.weather {
+  display: none;
+}
 
 /* Spinner while loading data from the server! */
+
 .lds-ripple {
   /* display: inline-block; */
   display: none;
@@ -180,7 +184,7 @@ h2 {
   opacity: 1;
   border-radius: 50%;
   animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
-  margin-left: 115px;
+  margin-left: 215px;
 }
 
 .lds-ripple div:nth-child(2) {
