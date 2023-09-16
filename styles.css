@@ -93,8 +93,7 @@ h2 {
 .info {
   /* display: none; */
   display: flex;
-  background: rgb(0, 150, 224);
-  background: linear-gradient(45deg, rgba(0, 150, 224, 1) 0%, rgba(128, 214, 255, 1) 100%);
+  background: linear-gradient(45deg, rgba(0, 150, 224, 1) 0%, rgb(144, 216, 249) 100%);
   border-radius: 22px;
   padding: 10px 25px 4px;
   color: rgb(255, 255, 255);
