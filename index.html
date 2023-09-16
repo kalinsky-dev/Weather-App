@@ -1,11 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Weather App</title>
-</head>
-<body>
-  
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        >
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+        <link rel="icon" href="./images/favicon.png">
+        <link rel="stylesheet" href="styles.css">
+        <title>Weather App</title>
+    </head>
+    <body>
+        <div class="card">
+            <h2>Weather App</h2>
+            <div class="search">
+                <input
+                    type="text"
+                    class="serch-bar-valid"
+                    id="search-bar"
+                    placeholder="Location..."
+                >
+                <button>
+                    <img
+                        src="./images/search-icon.png"
+                        alt="search-icon"
+                        id="search-icon"
+                    >
+                </button>
+            </div>
+
+            <div id="invalid">Invalid location... Please try again!</div>
+
+            <div class="weather">
+                <div class="lds-ripple">
+                    <div></div>
+                    <div></div>
+                </div>
+                
+                <div class="info">
+                    <div id="container">
+                        <p id="city">Sofia</p>
+                        <p id="temp">10 °C</p>
+                        <p id="description">Cloudy</p>
+                    </div>
+                    <div id="icon-container">
+                        <img
+                            src="./images/cloud.svg"
+                            alt="weather icon"
+                            id="icon"
+                        >
+                    </div>
+                </div>
+                <div class="additional-info">
+                    <div id="wind">Wind speed: 5km/h</div>
+                    <div id="humidity">80%</div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
