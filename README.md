@@ -1,4 +1,5 @@
-:# Weather Application <img src="./images/favicon.png" width="50" heigth="50"/>:
+<p style="text-align: center">Weather Application <img src="./images/favicon.png" width="50" heigth="50"/></p>
+
 
 Welcome to my Weather Application! This repository contains the source code for a basic weather application. The application retrieves and displays current weather information for a specified location. It is built using HTML, CSS, and Vanilla JavaScript and it provides a simple and user-friendly interface.
 
