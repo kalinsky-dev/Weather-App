@@ -16,7 +16,14 @@ body {
   box-shadow: -15px 17px 30px -3px rgba(18, 142, 206, 0.49);
   padding: 30px;
   border-radius: 22px;
-  max-width: 600px;
+  width: 500px;
+}
+
+/* Search */
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Search Button */
@@ -56,6 +63,7 @@ h2 {
   margin-bottom: 10px;
   color: rgb(0, 0, 0);
   font-weight: bold;
+  text-align: center;
 }
 
 /* Serch Bar */
@@ -101,7 +109,7 @@ h2 {
 }
 
 #city {
-  font-size: 20px;
+  font-size: 25px;
   margin: 8px 0px;
 }
 
@@ -113,6 +121,7 @@ h2 {
 
 #description {
   text-transform: capitalize;
+  font-size: 20px;
 }
 
 #icon-container {
@@ -120,7 +129,7 @@ h2 {
 }
 
 #icon {
-  width: 115px;
+  width: 130px;
   margin: 18px 24px;
 }
 
@@ -138,10 +147,13 @@ h2 {
 
 #wind {
   margin-right: auto;
+  font-size: 20px;
+}
+#humidity {
+  font-size: 20px;
 }
 
 /* Ivalid Input */
-
 #invalid {
   display: none;
   color: rgb(0, 0, 0);
