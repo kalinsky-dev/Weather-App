@@ -169,9 +169,8 @@ h2 {
 }
 
 /* Spinner while loading data from the server! */
-
 .lds-ripple {
-  /* display: inline-block; */
+  /* display:block; */
   display: none;
   position: relative;
   width: 80px;
