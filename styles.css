@@ -50,6 +50,45 @@ button:hover {
   margin: 18px 24px;
 }
 
+/* Title */
+h2 {
+  margin: 0px;
+  margin-bottom: 10px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+/* Serch Bar */
+#search-bar {
+  width: 240px;
+  border-radius: 22px;
+  height: 40px;
+  margin-right: 7px;
+  padding: 0 18px;
+  font-family: inherit;
+  font-size: large;
+}
+
+.search-bar-invalid {
+  border: 2px solid rgb(255, 147, 147);
+}
+
+.search-bar-invalid:hover {
+  border: 2px solid rgb(255, 0, 0);
+}
+
+.search-bar-valid {
+  border: 2px solid rgb(136, 204, 255);
+}
+
+.search-bar-valid:hover {
+  border: 2px solid rgb(63, 170, 252);
+}
+
+#search-bar:focus {
+  outline: none;
+}
+
 
 /* Spinner while loading data from the server! */
 .lds-ripple {
